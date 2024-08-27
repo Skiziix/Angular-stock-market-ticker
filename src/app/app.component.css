@@ -1,0 +1,13 @@
+:root {
+    box-sizing: border-box;
+}
+
+.main, .content {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    max-width: 30%;
+    flex-wrap: wrap;
+}
