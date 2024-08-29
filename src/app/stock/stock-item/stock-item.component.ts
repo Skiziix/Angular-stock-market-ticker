@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Stock } from '../../model/stock';
-import { NgStyle } from '@angular/common';
+import { NgStyle, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-stock-item',
   standalone: true,
-  imports: [NgStyle],
+  imports: [NgStyle, NgIf],
   templateUrl: './stock-item.component.html',
   styleUrl: './stock-item.component.css'
 })
